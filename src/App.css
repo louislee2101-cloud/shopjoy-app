@@ -1,0 +1,28 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: #1a1a2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}
+
+.phone-frame {
+  width: 375px;
+  height: 812px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 40px;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.5);
+}
+
+.page {
+  width: 375px;
+  height: 812px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  background: #fff;
+}
